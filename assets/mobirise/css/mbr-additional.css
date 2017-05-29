@@ -505,29 +505,8 @@ h6,
 #pricing-table1-w .mbr-price-figure {
   font-size: 46px;
 }
-#header6-b .mbr-section-title {
-  color: #28262b;
-}
-#header6-b .mbr-section-text {
-  color: #565656;
-}
-#header6-t .mbr-section-title {
-  color: #28262b;
-}
-#header6-t .mbr-section-text {
-  color: #565656;
-}
-#header6-u .mbr-section-title {
-  color: #28262b;
-}
-#header6-u .mbr-section-text {
-  color: #565656;
-}
-#header6-v .mbr-section-title {
-  color: #28262b;
-}
-#header6-v .mbr-section-text {
-  color: #565656;
+#form1-x .form-control-label {
+  color: #232323;
 }
 #ext_menu-d .hide-buttons .nav-btn {
   display: none !important;
