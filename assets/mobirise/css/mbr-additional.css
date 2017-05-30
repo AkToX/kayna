@@ -505,6 +505,10 @@ h6,
 #pricing-table1-w .mbr-price-figure {
   font-size: 46px;
 }
+#msg-box8-y .mbr-section-title,
+#msg-box8-y p {
+  color: #fff;
+}
 #ext_menu-d .hide-buttons .nav-btn {
   display: none !important;
 }
