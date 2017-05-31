@@ -509,6 +509,15 @@ h6,
 #msg-box8-y p {
   color: #fff;
 }
+#form1-14 .form-control-label {
+  color: #232323;
+}
+#header5-15 .mbr-section-title {
+  color: #000;
+}
+#header5-15 .mbr-section-lead {
+  color: #9c9a9a;
+}
 #ext_menu-d .hide-buttons .nav-btn {
   display: none !important;
 }

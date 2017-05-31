@@ -22,10 +22,12 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 35,
+    "uniqCompNum": 42,
     "versionPublish": "3.12.1",
     "favicon": "",
-    "noImageResize": ""
+    "noImageResize": "",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -126,7 +128,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KAYNA</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\"><p>ACCUEIL</p></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#pricing-table1-r\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRIX</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-r\">Réel</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-s\">Shows</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-w\">Déplacements</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-y\" aria-expanded=\"true\">COMMANDER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\" target=\"_blank\">MON NUMERO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"snapchat.com/add/kaaynaa75\" target=\"_blank\">SNAPCHAT</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\"><p>ACCUEIL</p></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#pricing-table1-r\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRIX</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-r\">Réel</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-s\">Shows</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-w\">Déplacements</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-6\" aria-expanded=\"false\">COMMANDER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\" target=\"_blank\">MON NUMERO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"snapchat.com/add/kaaynaa75\" target=\"_blank\">SNAPCHAT</a></li>"
         },
         {
           "_tags": [
@@ -442,7 +444,7 @@
             }
           },
           "title": "Comment me payer ?",
-          "text": "Avec Paypal, PCS, Skrill ou YouPass.&nbsp;",
+          "text": "Avec Paypal, PCS, CB &nbsp;ou YouPass.&nbsp;",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">MORE</a>"
         },
         {
@@ -495,9 +497,104 @@
             "showText": true,
             "showButton": false
           },
-          "title": "Réserve dès maintenant",
+          "title": "PAIEMENTS PAR CB",
           "text": "<h3><a href=\"http://kaynashop.tk\" class=\"text-info\" style=\"font-style: normal;\"><b>http://kaynashop.tk</b></a></h3>",
           "button": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"https://mobirise.com\">SEE ALL TEMPLATES</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "form1",
+          "_anchor": "form1-14",
+          "_params": {
+            "labelsColor": "#232323",
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showSubTitle": true
+          },
+          "title": "PCS FORMULAIRE",
+          "subtitle": "Achète un PCS sur recharge.fr/pcs ou dans un bureau de tabac<br>Après avoir envoyé le formulaire, je te recontacterais rapidement par skype, snap, email ou n° de téléphone.",
+          "form": {
+            "action": "realaktox@gmail.com",
+            "alerts": {
+              "success": "MERCI DE TA COMMANDE !\nJe te recontacte très bientôt pour une confimartion."
+            },
+            "fields": {
+              "name": {
+                "title": "Name",
+                "visible": true,
+                "customTitle": "Pseudo Snapchat*"
+              },
+              "email": {
+                "title": "Email",
+                "visible": true,
+                "customTitle": "Email*"
+              },
+              "phone": {
+                "title": "Phone",
+                "visible": true,
+                "customTitle": "Téléphone"
+              },
+              "message": {
+                "title": "Message",
+                "customTitle": "Message"
+              }
+            }
+          },
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-primary\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">ENVOYER</a>",
+          "_styles": {
+            ".form-control-label": {
+              "color": "#232323"
+            }
+          }
+        },
+        {
+          "_inherit": "header1",
+          "_styles": {
+            ".mbr-section-title": {
+              "color": "#000"
+            },
+            ".mbr-section-lead": {
+              "color": "#9c9a9a"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header5",
+          "_anchor": "header5-15",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "PAIEMENT PAR YOUPASS",
+          "text": "Widget Youpass",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD NOW</a>"
         }
       ]
     },
@@ -592,7 +689,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">KAYNA</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\"><p>ACCUEIL</p></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#pricing-table1-r\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRIX</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-r\">Réel</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-s\">Shows</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-w\">Déplacements</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#msg-box8-y\" aria-expanded=\"true\">COMMANDER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\" target=\"_blank\">MON NUMERO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"snapchat.com/add/kaaynaa75\" target=\"_blank\">SNAPCHAT</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header1-1\"><p>ACCUEIL</p></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"index.html#pricing-table1-r\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">PRIX</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-r\">Réel</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-s\">Shows</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"index.html#pricing-table1-w\">Déplacements</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#header2-6\" aria-expanded=\"false\">COMMANDER</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"index.html\" target=\"_blank\">MON NUMERO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-danger\" href=\"snapchat.com/add/kaaynaa75\" target=\"_blank\">SNAPCHAT</a></li>"
         },
         {
           "_tags": [
